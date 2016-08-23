@@ -1,2 +1,16 @@
 # JavaScript-Programs
 Some basic JavaScript Programs
+
+# To Check the given string is palindrome or not
+
+function palindrome(str){
+      var removeChar = str.replace(/[^A-Z0-9]/ig," ").toLowerCase();
+      var checkPalindrome = removeChar.split('').reverse().join('');
+          if(removeChar == checkPalindrome{
+              document.write(str + "is a palindrome");
+          }else{
+              document.write(str + "is not a palindrome");
+          }
+}
+
+palindrome("madam")
