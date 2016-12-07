@@ -1,0 +1,30 @@
+var sentence = "Sentence is a set of words.";
+
+//To find the length:
+console.log(sentence.length); => 27
+
+//To change the string to upper case letters:
+console.log(sentence.toUpperCase()); => SENTENCE IS A SET OF WORDS.
+
+//To change the string to lower case letters:
+console.log(sentence.toLowerCase()); => sentence is a set of words.
+
+//To know which character is at which position:
+console.log(sentence.charAt(0)); => S
+
+//To know position of substring:
+console.log(sentence.indexOf("is")); => 9
+
+//String search methods:
+
+//To replace original substring and replaces it with new substring
+//replace(orig,new)
+console.log(sentence.replace(sentence,word)); => word is a set of words
+
+//To display set of characters existing between start and end point within a string
+//substring(start,end)
+console.log(sentence.substring(0,8)); => Sentence
+
+//To display set of characters between the start position given and the length given. It is similar to substring.
+//substr(start,length)
+console.log(sentence.substr(0,8)); => Sentence
