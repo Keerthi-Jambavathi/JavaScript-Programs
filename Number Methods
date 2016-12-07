@@ -1,0 +1,17 @@
+
+var example = 5.5;
+
+//To pull out the integer value from a floating point variable number
+console.log(parseInt(example,10)); => 5
+
+//To pull out the floating point value of a number
+console.log(parseFloat(example)); => 5.5
+
+//To convert number to string
+console.log(example.toString()); => "5.5"
+
+//To create string out of a value of number and limit it to decimal points
+console.log(example.toFixed(2)); => 5.50
+
+//Limits total number of digits for the string that is created to the number passed in to precision
+console.log(example.toPrecision(3)); => 5.50
